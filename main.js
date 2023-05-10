@@ -63,7 +63,9 @@ const gaseosa = new Producto("FN312PPE", "Gaseosa", 5, "bebidas");
 const cerveza = new Producto("PV332MJ", "Cerveza", 20, "bebidas");
 const arroz = new Producto("XX92LKI", "Arroz", 7, "alimentos", 20);
 const fideos = new Producto("UI999TY", "Fideos", 5, "alimentos");
-const lavandina = new Producto("RT324GD
+const lavandina = new Producto("RT324GD, "Lavandina", 9, "limpieza");
+const shampoo = new Producto("OL883YE", "Shampoo", 3, "higiene", 50);
+const jabon = new Producto("WE328NJ", "Jabon", 4, "higiene", 3);
 
 const Carrito = new Carrito();
 Carrito.agregarProducto("KS944RUR", 3);
