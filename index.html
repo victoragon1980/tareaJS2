@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Mi Supermercado</title>
-</head>
-<body>
-    <script src="tarea2.js"></script>
-</body>
+<html>
+  <head>
+    <title>Mi tienda en línea</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <h1>Mi tienda en línea</h1>
+    </header>
+
+    <main>
+      <h2>Productos disponibles</h2>
+      <ul>
+        <li>SKU: KS944RUR, Nombre: Queso, Precio: $10, Categoría: lácteos, Stock: 4</li>
+        <li>SKU: FN312PPE, Nombre: Gaseosa, Precio: $5, Categoría: bebidas, Stock: 10</li>
+        <li>SKU: PV332MJ, Nombre: Cerveza, Precio: $20, Categoría: bebidas, Stock: 10</li>
+        <li>SKU: XX92LKI, Nombre: Arroz, Precio: $7, Categoría: alimentos, Stock: 20</li>
+        <li>SKU: UI999TY, Nombre: Fideos, Precio: $5, Categoría: alimentos, Stock: 10</li>
+        <li>SKU: RT324GD, Nombre: Lavandina, Precio: $9, Categoría: limpieza, Stock: 10</li>
+        <li>SKU: OL883YE, Nombre: Shampoo, Precio: $3, Categoría: higiene, Stock: 50</li>
+        <li>SKU: WE328NJ, Nombre: Jabón, Precio: $4, Categoría: higiene, Stock: 3</li>
+      </ul>
+
+      <h2>Carrito de compras</h2>
+      <ul id="carrito">
+        <!-- Los elementos del carrito se agregan dinámicamente con JavaScript -->
+      </ul>
+
+      <h2>Categorías de productos en el carrito</h2>
+      <ul id="categorias">
+        <!-- Las categorías se agregan dinámicamente con JavaScript -->
+      </ul>
+
+      <h2>Precio total del carrito</h2>
+      <p id="precio-total">$0</p>
+    </main>
+
+    <footer>
+      <p>Hecho por Victor Agon</p>
+    </footer>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
 </html>
